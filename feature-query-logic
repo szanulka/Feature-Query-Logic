@@ -1,0 +1,12 @@
+@supports (background-color: rgba(6, 1, 106, 0.4)) and (background: linear-gradient(red, white, blue)) 
+  (background-color:-webkit-rgba(6, 1, 106, 0.4)) or 
+  ((background: -webkit-linear-gradient(red, white, blue)) or
+  (background-color: -moz- rgba(6, 1, 106, 0.4)) or 
+  (background: -moz-linear-gradient(red, white, blue)) or
+  (background-color: -ms- rgba(6, 1, 106, 0.4)) or 
+  (background: -ms-linear-gradient(red, white, blue)) or (background-color: -o- rgba(6, 1, 106, 0.4)) or 
+  (background: -o-linear-gradient(red, white, blue))  {
+    body {
+    background: linear-gradient(90deg, rgba(6, 1, 106, 0.4) 0%, rgba(186, 255, 253, 1) 100%);
+  }
+}
